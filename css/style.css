@@ -130,7 +130,9 @@ body {
 
 .why__wrapper-video {
     width: 600px;
+    min-width: 600px;
     height: 400px;
+    min-height: 400px;
     border-radius: 12px;
 }
 
