@@ -30,6 +30,39 @@
         min-height: 280px;
     }
 
+    .start__title {
+        font-size: 46px;
+    }
+    
+    .start__text {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .reviews__item {
+        padding: 20px;
+    }
+
+    .support__inner {
+        gap: 30px;
+    }
+
+    .support__title {
+        font-size: 56px;
+    }
+
+    .find-section {
+        padding: 100px 0;
+    }
+
+    .find__title {
+        font-size: 46px;
+    }
+
+    .find__text {
+        font-size: 18px;
+    }
+
     .footer-top {
         flex-wrap: wrap;
         gap: 72px;
@@ -37,6 +70,10 @@
 }
 
 @media (max-width: 960px) {
+    .section-offset {
+        padding-top: 100px;
+    }
+
     .hero__inner {
         gap: 12px;
     }
@@ -70,6 +107,117 @@
         height: 100%;
         min-height: 400px;
     }
+
+    .menu__title {
+        font-size: 46px;
+    }
+
+    .menu__list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .menu__tabs {
+        margin-bottom: 10px;
+        width: 100%;
+        max-width: calc(100vw - 30px);
+        overflow: scroll;
+        gap: 30px;
+    }
+
+    .menu__tabs::-webkit-scrollbar {
+        display: none;
+    }
+
+    .menu__tab {
+        width: 100%;
+        min-width: max-content;
+    }
+
+    .stats__item-value {
+        font-size: 46px;
+    }
+
+    .stats__item-label {
+        font-size: 16px;
+    }
+
+    .reviews__inner {
+        gap: 30px;
+    }
+
+    .reviews__title {
+        font-size: 46px;
+    }
+
+    .reviews__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .find__inner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .find__content {
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .find__title, .find__text {
+        text-align: center;
+    }
+
+    .find__text {
+        margin-bottom: 30px;
+    }
+
+    .find__img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .stats__inner {
+        gap: 50px;
+    }
+
+    .stats__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stats__item {
+        gap: 6px;
+    }
+
+    .start__title {
+        font-size: 42px;
+    }
+
+    .start__text {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .reviews__item-text {
+        font-size: 16px;
+    }
+
+    .support-section {
+        padding: 60px 0;
+    }
+
+    .support__inner {
+        gap: 24px;
+    }
+
+    .support__title {
+        font-size: 52px;
+    }
+
+    .support__input {
+        padding: 20px 25px;
+    }
 }
 
 @media (max-width: 640px) {
@@ -87,6 +235,70 @@
     }
 
     .hero__text {
+        font-size: 16px;
+    }
+
+    .menu__inner {
+        gap: 20px;
+    }
+
+    .menu__title {
+        font-size: 42px;
+    }
+
+    .menu__tabs {
+        margin-bottom: 0;
+    }
+
+    .menu__tab {
+        font-size: 16px;
+    }
+
+    .menu__list {
+        grid-template-columns: 1fr;
+    }
+
+    .menu__item-text {
+        font-size: 16px;
+    }
+
+    .start__title {
+        font-size: 40px;
+    }
+
+    .reviews__title {
+        font-size: 40px;
+    }
+
+    .reviews__list {
+        grid-template-columns: 1fr;
+    }
+
+    .support__form {
+        gap: 16px;
+    }
+
+    .support__input, .support__btn {
+        font-size: 16px;
+    }
+
+    .support__input {
+        padding: 16px 24px;
+    }
+
+    .support__btn {
+        padding: 16px 48px;
+    }
+
+    .find__title {
+        margin-bottom: 12px;
+    }
+
+    .find__text {
+        margin-bottom: 24px;
+    }
+
+    .find__text, .find__btn {
         font-size: 16px;
     }
 
@@ -128,7 +340,7 @@
     }
 
     .section-offset {
-        padding-top: 60px;
+        padding-top: 80px;
     }
 
     .why__title {
@@ -142,6 +354,97 @@
 
     .why__wrapper-video {
         min-height: 250px;
+    }
+
+    .menu__inner, .menu__item-content {
+        gap: 16px;
+    }
+
+    .menu__title {
+        font-size: 36px;
+    }
+
+    .menu__tab, .menu__item-text {
+        font-size: 14px;
+    }
+
+    .stats__title, .stats__item-value {
+        font-size: 36px;
+    }
+
+    .stats__item-label {
+        font-size: 14px;
+    }
+
+    .start__inner {
+        gap: 16px;
+    }
+
+    .start__title {
+        font-size: 32px;
+    }
+
+    .start__text {
+        font-size: 14px;
+    }
+
+    .reviews__inner {
+        gap: 20px;
+    }
+
+    .reviews__title {
+        font-size: 36px;
+    }
+
+    .reviews__item {
+        gap: 16px;
+    }
+
+    .reviews__item-name {
+        font-size: 20px;
+    }
+
+    .reviews__item-text, .reviews__item-profession {
+        font-size: 14px;
+    }
+
+    .reviews__item-text {
+        margin-top: 5px;
+    }
+
+    .support__inner {
+        gap: 18px;
+    }
+
+    .support__title {
+        font-size: 38px;
+    }
+
+    .support__form {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .support__input, .support__btn {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .find-section {
+        padding: 60px 0;
+    }
+
+    .find__title {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+
+    .find__text {
+        margin-bottom: 22px;
+    }
+
+    .find__text, .find__btn {
+        font-size: 14px;
     }
 
     .btn {
